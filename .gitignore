@@ -1,2 +1,3 @@
 *.exe
 .terraform
+aws_cred.tf
