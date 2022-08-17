@@ -25,4 +25,17 @@ Youtube video called
 <ul>
     <li>Use Subnet ID</li>
     <li>Use Route Table ID</li>
+</ul>
+<li>Configure Security Group</li>
+<ul>
+    <li>Use VPC ID</li>
+    <li>configure ingress</li>
+    <li>configure egress</li>
+</ul>
+<li>Configured data type, to retrieve AMI information, <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami">reference</a>. </li>
+<ul>
+    <li>via AMI Catalog, got AMI ID of the required image</li>
+    <li>via AMI, choose <strong>public image</strong> and paste the AMI ID and retieve owner ID</li>
+    <li>Used <b style="color: red">*</b> at the end of <b style="color: red">values</b> to get the latest realease</li>
+</ul>
 </ul></ol></em>
