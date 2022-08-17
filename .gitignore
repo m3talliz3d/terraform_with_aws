@@ -1,4 +1,4 @@
 *.exe
-.terraform
+.terraform*
 aws_cred.tf
 terraform.tfstate*
