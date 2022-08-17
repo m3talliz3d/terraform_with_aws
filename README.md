@@ -6,7 +6,7 @@ Youtube video called
 <a href="https://www.freecodecamp.org/news/learn-terraform-and-aws-by-building-a-dev-environment/">Learn Terraform and AWS by Building a Dev Environment</a></p>
 
 
-<h3>To configure VPC, you need to configure these dependencies:</h3>
+<h3>Video walkthrough Steps :</h3>
 <em>
 <ol>
 <li>Configure a "VPC" with CIDR range</li>
