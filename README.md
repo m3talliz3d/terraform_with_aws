@@ -57,7 +57,7 @@ Youtube video called
 
 <li>Create a resource for key pair</li>
 <ul>
-    <li>generate keypair using ssh-keygen ssh-keygen.exe -t ed25519</li>
+    <li>generate keypair using `ssh-keygen ssh-keygen.exe -t ed25519`</li>
 </ul>
 
 <li>Create Instance</li>
