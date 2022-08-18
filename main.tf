@@ -18,11 +18,10 @@ resource "aws_instance" "dev_node" {
 
     provisioner "local-exec" {
         command = templatefile("windows-ssh-config.tpl", {
-            hostname = self.public_ip
-            user = "ubuntu"
-            identityfile = "~/.ssh/mtckey"
-        })
-        interpreter = ["powershell", "-Command"]
+            hostname = self.public_ip,
+            user = "ubuntu",
+            identityfile = "~/.ssh/mtckey" })
+        interpreter = ["Powershell", "-Command"]
     }
 
     tags = {
