@@ -57,7 +57,7 @@ Youtube video called
 
 <li>Create a resource for key pair</li>
 <ul>
-    <li>generate keypair using `ssh-keygen ssh-keygen.exe -t ed25519`</li>
+    <li>generate keypair using `ssh-keygen ssh-keygen.exe -t ed25519</li>
 </ul>
 
 <li>Create Instance</li>
@@ -77,3 +77,8 @@ Youtube video called
 </ul>
 
 </ul></ol></em>
+
+<h3>--> Other Links:</h3>
+<ul>
+<li><a href="https://jhooq.com/terraform-error-config-s3/">Used to create a remote Terraform state on S3 bucket</a></li>
+</ul>
