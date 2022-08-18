@@ -1,7 +1,7 @@
-add-content -path %userprofile%\.ssh\config -value @'
+add-content -path c:/users/moha/.ssh/config -value @'
 
-    Host $(hostname)
-        HostNsme $(hostname)
-        User $(user)
-        IdentityFile $(identityfile)
-    '
+Host ${hostname}
+  HostName ${hostname}
+  User ${user}
+  IdentityFile ${identityfile}
+'@
